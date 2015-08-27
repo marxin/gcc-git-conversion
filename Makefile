@@ -3,11 +3,6 @@ SOURCE_VCS = svn
 TARGET_VCS = git
 EXTRAS = 
 REMOTE_URL = svn://gcc.gnu.org/svn/gcc
-#REMOTE_URL = https://$(PROJECT).googlecode.com/svn/
-CVS_HOST = cvs.sourceforge.net
-#CVS_HOST = cvs.savannah.gnu.org
-CVS_MODULE = $(PROJECT)
-#REMOTE_URL = cvs://$(CVS_HOST)/$(PROJECT)#$(CVS_MODULE)
 VERBOSITY = "verbose 1"
 REPOSURGEON = cyreposurgeon
 

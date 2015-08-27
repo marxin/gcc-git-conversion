@@ -1,0 +1,29 @@
+This repository contains the data files used in the GCC conversion
+from Subversion to git.
+
+The most important files are:
+
+* gcc.lift - custom reposurgeon commands fo r thus conversion.
+
+* gcc.map - GCC contributor map.
+
+Prerequisites:
+
+1. You must have recent versions of the reposurgeon suite, git,
+Subversion, and the cython JIT compiler installed.
+
+2. Use cython to build cyreposurgeon (for speed) with "make cyreposurgeon".
+in the reposurgeon source directory. Make sure it is in your $PATH.
+
+3. Your machine will need to have a minimum of 45GB RAM.  
+
+To run an entire conversion, simply type 'make'.  This will mirror
+the Subversion repository and convert it to git, performing the
+custom commands in gcc.lift at the appropriate time after first-stage
+conversion.
+
+Warning: this will take a long time, as the repository is huge.
+
+
+
+
