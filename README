@@ -24,6 +24,8 @@ conversion.
 
 Warning: this will take a long time, as the repository is huge.
 
+Don't forget to run "make gc" to repack whem it's production ready.
+
 
 
 
