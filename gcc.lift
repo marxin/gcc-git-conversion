@@ -1,1 +1,12 @@
 expunge /^hooks/
+
+authors read <gcc.map
+
+# Deal with the one ambiguous username.
+(<1>..<14639> & /master/b) | /premerge-fsf-branch/b assign gcc2
+<gcc2> authors read <<EOF
+dje = Doug Evans <dje@gcc.gnu.org>
+EOF
+~<gcc2> authors read <<EOF
+dje = David Edelsohn <dje@gcc.gnu.org>
+EOF
