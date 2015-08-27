@@ -3,7 +3,7 @@ from Subversion to git.
 
 The most important files are:
 
-* gcc.lift - custom reposurgeon commands fo r thus conversion.
+* gcc.lift - custom reposurgeon commands for this conversion.
 
 * gcc.map - GCC contributor map.
 
