@@ -1,5 +1,7 @@
 expunge /^hooks/
 
+verbose 1
+
 authors read <gcc.map
 
 # Deal with the one ambiguous username.
