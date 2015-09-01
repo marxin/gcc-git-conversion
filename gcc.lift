@@ -1,6 +1,6 @@
 expunge /^hooks/
 
-verbose 1
+echo 1
 
 authors read <gcc.map
 
