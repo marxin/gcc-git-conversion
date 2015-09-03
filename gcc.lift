@@ -2,6 +2,9 @@ expunge /^hooks/
 
 echo 1
 
+# Squash accidental trunk deletion and recreation.
+<130803.1>,<138077>,<184996.1> squash
+
 authors read <gcc.map
 
 # Deal with the one ambiguous username.
