@@ -1,0 +1,3 @@
+#! /bin/sh
+rsync -az --delete gcc.gnu.org:/svn/gcc/ gcc-mirror/
+touch -r gcc-mirror/db/current gcc-mirror
