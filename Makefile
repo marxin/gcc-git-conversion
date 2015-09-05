@@ -17,7 +17,7 @@ gcc-git: gcc.fi
 
 # Build the second-stage fast-import stream from the first-stage stream dump
 gcc.fi: gcc.svn gcc.lift gcc.map $(EXTRAS)
-	$(REPOSURGEON) $(VERBOSITY) "script gcc.opts" "read <gcc.svn" "authors read <gcc.map" "sourcetype svn" "prefer git" "script gcc.lift" "legacy write >gcc.fo" "write >gcc.fi"
+	$(REPOSURGEON) $(VERBOSITY) "script gcc.opts" "read <gcc.svn" "authors read <gcc.map" "sourcetype svn" "prefer git" "script gcc.lift" "legacy write >gcc.fo" "write --legacy >gcc.fi"
 
 # Build the first-stage stream dump from the local mirror
 gcc.svn: gcc-mirror
