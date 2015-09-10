@@ -1,3 +1,3 @@
 # Add branchify_map commands and other pre-read options here.
-branchify trunk branches/* tags/* branches/redhat/* branches/ARM/* branches/apple/* branches/csl/* branches/dead/* branches/gcj/* branches/google/* branches/ibm/* branches/ix86/* branches/linaro/* branches/st/tags/* branches/suse/* branches/ubuntu/* tags/apple/* tags/csl/* tags/ix86/* tags/redhat/* tags/ubuntu/*
-branchify_map :branches/st/tags/(.*):tags/st/\1: :tags/(.*)/:tags/\1: :branches/(.*)/:heads/\1:
+branchify trunk branches/* tags/* branches/redhat/* branches/ARM/* branches/apple/* branches/csl/* branches/dead/* branches/gcj/* branches/google/* branches/ibm/* branches/ix86/* branches/linaro/* branches/st/* branches/st/tags/* branches/suse/* branches/ubuntu/* tags/apple/* tags/csl/* tags/ix86/* tags/redhat/* tags/ubuntu/*
+branchify_map :branches/st/tags/(.*)/:tags/st/\1: :branches/st/$:heads/st/README: :tags/(.*)/:tags/\1: :branches/(.*)/:heads/\1:
