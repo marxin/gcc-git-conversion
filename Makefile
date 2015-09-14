@@ -14,6 +14,7 @@ default: gcc-git
 # Build the converted repo from the second-stage fast-import stream
 gcc-git: gcc.fi
 	rm -fr gcc-git; $(REPOSURGEON) "read <gcc.fi" "prefer git" "rebuild gcc-git"
+	cd gcc-git; ../filters
 
 # Build the second-stage fast-import stream from the first-stage stream dump
 gcc.fi: gcc.svn gcc.lift gcc.map $(EXTRAS)

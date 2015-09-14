@@ -1,0 +1,60 @@
+#! /bin/sh
+
+# Postprocessing of the git conversion.
+
+rm -rf gcc-git.git
+git clone -l --mirror gcc-git
+cd gcc-git.git
+
+# We branchified all the subdirectories of branches/st, but we still
+# want to put its README in a branch.
+git branch st/README root
+git filter-branch --subdirectory-filter branches/st st/README
+
+# Everything else in 'root' is useless, either accidental branch
+# creation/deletion or ignore twiddling.
+git branch -D root
+
+# Recreate branches that reposurgeon discarded.
+for f in $(git tag|grep -- '-root$'); do
+    ob=${f%-root}
+    if ! git show-ref --verify -q refs/heads/$ob; then
+	git branch $ob $f &&
+	    git tag -d $f
+    fi
+done
+# Discard the other -root tags.
+git tag | grep -- '-root$' | xargs git tag -d
+
+# Perform branch/tag deletes.
+for f in $(git tag|grep ^tipdelete-); do
+    ob=${f#tipdelete-}
+    refs=( $(git show-ref $ob|cut -d ' ' -f 2) )
+    # Make sure the name is unambiguous.
+    if [ ${#refs[@]} = 1 ]; then
+	ref=${refs[0]}
+	case $ref in
+	    refs/heads/*)
+		git branch -D $ob && git tag -d $f ;;
+	    refs/tags/*)
+		git tag -d $ob && git tag -d $f ;;
+	esac
+    fi
+done
+# Handle the ambiguous ref deletes.
+for f in improved-aliasing-branch gomp-20050608-branch functionspecific-branch; do
+    git branch -D $f
+    git tag -d tipdelete-$f
+done
+git tag -d functionspecific-branch tipdelete-functionspecific-branch.1
+
+# Delete emptycommit tags for merge and mime-type properties, directory
+# add/delete, and no-op "change"s.
+for f in $(git tag|grep ^emptycommit-); do
+    if [ $(git show -s $f | grep NodeAction: |
+	  egrep -v "(delete|add) dir|merge|mime-type|change (dir|file) '[^ ]*'>" |
+	  wc -l) == 0 ]; then
+	git tag -d $f
+    fi
+done
+git tag -d emptycommit-199361
