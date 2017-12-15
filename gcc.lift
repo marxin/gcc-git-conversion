@@ -1,6 +1,3 @@
-# Statistics on the read
-timing
-
 expunge /^hooks/
 
 echo 1
@@ -22,5 +19,8 @@ EOF
 dje = David Edelsohn <dje.gcc@gmail.com>
 EOF
 
-# Report elapsed time
-exit
+# Massage comments into gittish form with separator lines
+gitify
+
+# Statistics on read and processing times
+timing
