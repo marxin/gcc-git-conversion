@@ -1,7 +1,7 @@
 EXTRAS = 
 REMOTE_URL = svn://gcc.gnu.org/svn/gcc
 VERBOSITY = "verbose 1"
-REPOSURGEON = cyreposurgeon
+REPOSURGEON = pypy `command -v reposurgeon`
 
 # Configuration ends here
 
