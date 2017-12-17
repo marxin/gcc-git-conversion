@@ -56,7 +56,7 @@ stubmap: gcc.svn
 # Compare the histories of the unconverted and converted repositories at head
 # and all tags.
 EXCLUDE = -x CVS -x .svn -x .git
-EXCLUDE += -x .svnignore -x .gitignore
+EXCLUDE += -x .svnignore -x .gitignore -x .cvsignore
 headcompare:
 	repotool compare $(EXCLUDE) gcc-checkout gcc-git
 tagscompare:
