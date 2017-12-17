@@ -13,12 +13,12 @@ default: gcc-git
 
 # Build the converted repo from the second-stage fast-import stream
 gcc-git: gcc.fi
-	rm -fr gcc-git; $(REPOSURGEON) "read <gcc.fi" "prefer git" "rebuild gcc-git"
+	rm -fr gcc-git; $(REPOSURGEON) "read <gcc.fi" "prefer git" "rebuild gcc-git" "elapsed"
 	cd gcc-git; ../filters
 
 # Build the second-stage fast-import stream from the first-stage stream dump
 gcc.fi: gcc.svn gcc.lift gcc.map $(EXTRAS)
-	$(REPOSURGEON) $(VERBOSITY) "script gcc.opts" "read <gcc.svn" "authors read <gcc.map" "sourcetype svn" "prefer git" "script gcc.lift" "legacy write >gcc.fo" "write --legacy >gcc.fi"
+	$(REPOSURGEON) $(VERBOSITY) "script gcc.opts" "read <gcc.svn" "authors read <gcc.map" "sourcetype svn" "prefer git" "script gcc.lift" "legacy write >gcc.fo" "write --legacy >gcc.fi" "elapsed"
 
 # Build the first-stage stream dump from the local mirror
 gcc.svn: gcc-mirror
