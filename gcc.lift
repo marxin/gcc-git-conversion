@@ -19,6 +19,78 @@ EOF
 dje = David Edelsohn <dje.gcc@gmail.com>
 EOF
 
+# Remove ancient CVS tags that confuse the git importer
+# (for example, refs/tags/ARM/hard_vfp_4_4_branch-root is illegal
+# because refs/tags/ARM exists)
+tag premerge-fsf-branch-root delete
+tag redhat/gcc-3_4-branch-root delete
+tag redhat/gcc-3_3-branch-root delete
+tag redhat/gcc-4_1-branch-root delete
+tag suse/gcc-4_1-branch-root delete
+tag gcj/gcj-abi-stabilization-branch-root delete
+tag redhat/fc5-4_1-branch-root delete
+tag ibm/gcc-4_1-branch-root delete
+tag suse/gcc-4_2-branch-root delete
+tag gcj/classpath-095-merge-branch-root delete
+tag gcj/classpath-095-import-branch-root delete
+tag redhat/gcc-4_1-jdwp-merge-branch-root delete
+tag redhat/fc6-4_1-branch-root delete
+tag ubuntu/gcc-4_2-branch-root delete
+tag milepost-branch-root delete
+tag ix86/gcc-4_2-branch-root delete
+tag ix86/gcc-4_1-branch-root delete
+tag function-specific-branch-root delete
+tag gcc-4_3-branch-root delete
+tag melt-branch-root delete
+tag ix86/gcc-4_3-branch-root delete
+tag cell-4_3-branch-root delete
+tag cxx0x-lambdas-branch-root delete
+tag rtl-fud-branch-root delete
+tag var-tracking-assignments-4_3-branch-root delete
+tag gcj/classpath-098-merge-branch-root delete
+tag c-4_5-branch-root delete
+tag diagnostics-branch-root delete
+tag named-addr-4_3-branch-root delete
+tag ARM/hard_vfp_4_4_branch-root delete
+tag redhat/gcc-4_4-branch-root delete
+tag ibm/gcc-4_3-branch-root delete
+tag arc-20081210-branch-root delete
+tag gcc-4_4-branch-root delete
+tag arc-4_4-branch-root delete
+tag multi-target-4_4-branch-root delete
+tag ibm/gcc-4_4-branch-root delete
+tag arc-milepost-branch-root delete
+tag arc-4_4-20090909-branch-root delete
+tag cell-4_4-branch-root delete
+tag redhat/gcc-4_5-branch-root delete
+tag ix86/gcc-4_5-branch-root delete
+tag ibm/gcc-4_5-branch-root delete
+tag ibm/gcc-4_6-branch-root delete
+tag ARM/embedded-4_6-branch-root delete
+tag ARM/aarch64-branch-root delete
+tag ARM/embedded-4_7-branch-root delete
+tag ARM/aarch64-4.7-branch-root delete
+tag redhat/gcc-4_8-branch-root delete
+tag linaro/gcc-4_8-branch-root delete
+tag gcc-4_8-branch-root delete
+tag gomp-4_0-branch-root delete
+tag ibm/gcc-4_8-branch-root delete
+tag ARM/embedded-4_8-branch-root delete
+tag openacc-1_0-branch-root delete
+tag redhat/gcc-4_9-branch-root delete
+tag gcc-4_9-branch-root delete
+tag linaro/gcc-4_9-branch-root delete
+tag ibm/gcc-4_9-branch-root delete
+tag ARM/embedded-4_9-branch-root delete
+tag ibm/gcc-5-branch-root delete
+tag ARM/embedded-5_0-branch-root delete
+tag ARM/embedded-5-branch-root delete
+tag ARM/embedded-6-branch-root delete
+tag ibm/gcc-6-branch-root delete
+tag gcj/gcj-deletion-branch-root delete
+tag ibm/gcc-7-branch-root delete
+tag ARM/embedded-7-branch-root delete
+
 # Massage comments into gittish form with separator lines
 gitify
 
