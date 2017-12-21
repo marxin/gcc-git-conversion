@@ -86,7 +86,7 @@ cbaylis = Charles Baylis <charles.baylis@linaro.org>
 cchavva = Chandra Chavva <cchavva@redhat.com>
 ccorn = Christian Cornelssen <ccorn@cs.tu-berlin.de>
 ccoutant = Cary Coutant <ccoutant@gmail.com>
-cesar = Cesar Philippidis <cesar@codesourcery.com>
+cesar = Cesar Philippidis <cesar@codesourcery.com> America/Los_Angeles
 cfairles = Chris Fairles <cfairles@gcc.gnu.org>
 cfang = Changpeng Fang <changpeng.fang@amd.com>
 cgd = Chris Demetriou <cgd@google.com>
@@ -256,9 +256,9 @@ itsimbal = Igor Tsimbalist <igor.v.tsimbalist@intel.com>
 iusmanov = Ilmir Usmanov <me@ilmir.us>
 iverbin = Ilya Verbin <iverbin@gmail.com>
 jakub = Jakub Jelinek <jakub@redhat.com> Europe/Prague
-jakub2 = Jakub Jelinek <jakub@gcc.gnu.org> Europe/Prague
-jakub3 = Jakub Jelinek <jj@sunsite.ms.mff.cuni.cz> Europe/Prague
-jakub4 = Jakub Jelinek <jj@ultra.linux.cz> Europe/Prague
++ Jakub Jelinek <jakub@gcc.gnu.org> Europe/Prague
++ Jakub Jelinek <jj@sunsite.ms.mff.cuni.cz> Europe/Prague
++ Jakub Jelinek <jj@ultra.linux.cz> Europe/Prague
 jamborm = Martin Jambor <mjambor@suse.cz> Europe/Prague
 jamesbowman = James Bowman <james.bowman@ftdichip.com>
 janis = Janis Johnson <janis.marie.johnson@gmail.com>
@@ -269,7 +269,7 @@ jayants = Jayant Sonar <rsonar.jayant@gmail.com>
 jb = Janne Blomqvist <jb@gcc.gnu.org> Europe/Helsinki
 # Following two are Changelog only
 jblomqvi = Janne Blomqvist <jblomqvi@cc.hut.fi>  Europe/Helsinki
-jblomqvi2 = Janne Blomqvist <jblomqvi@vipunen.hut.fi>  Europe/Helsinki
++ Janne Blomqvist <jblomqvi@vipunen.hut.fi>  Europe/Helsinki
 jbeniston = Jon Beniston <jon@beniston.com>
 jbeulich = Jan Beulich <jbeulich@novell.com>
 jbglaw = Jan-Benedict Glaw <jbglaw@lug-owl.de>
@@ -435,7 +435,11 @@ phdm = Philippe De Muyter <phdm@macqel.be>
 phython = James A. Morrison <phython@gcc.gnu.org>
 # Andrew Pinksi was EST before 2006
 pinskia = Andrew Pinski <pinskia@gmail.com> America/Los_Angeles
-pkoning = Paul Koning <ni1d@arrl.net>
+pkoning = Paul Koning <ni1d@arrl.net> America/New_York
++ Paul Koning <paulkoning@comcast.net> America/New_York
++ Paul Koning <pkoning@quallogic.com> America/New_York
++ Paul Koning <paul_koning@dell.com> America/New_York
++ Paul Koning <paul.koning@dell.com> America/New_York
 pmarlier = Patrick Marlier <patrick.marlier@gmail.com>
 pmatos = Paulo Matos <paulo@matos-sorge.com>
 pmderodat = Pierre-Marie de Rodat <derodat@adacore.com>
@@ -443,9 +447,9 @@ pme = Phil Edwards <pme@gcc.gnu.org>
 pmj = Phillip Jordan <phillip.m.jordan@gmail.com>
 pmuldoon = Phil Muldoon <pmuldoon@redhat.com>
 pogma = Peter O'Gorman <pogma@thewrittenword.com>
-pompa = Pompapathi V Gadad <Pompapathi.V.Gadad@nsc.com>
+pompa = Pompapathi V Gadad <Pompapathi.V.Gadad@nsc.com> Asia/Kolkata
 ppalka = Patrick Palka <ppalka@gcc.gnu.org>
-ppluzhnikov = Paul Pluzhnikov <ppluzhnikov@google.com>
+ppluzhnikov = Paul Pluzhnikov <ppluzhnikov@google.com> America/Los_Angeles
 prachigodbole = Prachi Godbole <prachi.godbole@imgtec.com>
 prakhar = Prakhar Bahuguna <prakhar.bahuguna@arm.com>
 prathamesh3492 = Prathamesh Kulkarni <prathamesh.kulkarni@linaro.org>
