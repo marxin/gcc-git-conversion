@@ -427,7 +427,8 @@ pbrook = Paul Brook <paul@nowt.org>
 pcg = Marc Lehmann <pcg@goof.com>
 phdm = Philippe De Muyter <phdm@macqel.be>
 phython = James A. Morrison <phython@gcc.gnu.org>
-pinskia = Andrew Pinski <pinskia@gmail.com>
+# Andrew Pinksi was EST before 2006
+pinskia = Andrew Pinski <pinskia@gmail.com> America/Los_Angeles
 pkoning = Paul Koning <ni1d@arrl.net>
 pmarlier = Patrick Marlier <patrick.marlier@gmail.com>
 pmatos = Paulo Matos <paulo@matos-sorge.com>
