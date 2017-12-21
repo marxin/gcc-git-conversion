@@ -91,7 +91,16 @@ tag gcj/gcj-deletion-branch-root delete
 tag ibm/gcc-7-branch-root delete
 tag ARM/embedded-7-branch-root delete
 
-# Massage comments into gittish form with separator lines
+# Deletion of other spurious commits
+
+# Creation for a branch that never happened - got disconnected somehow
+/Branch to work on rfc2515./ delete
+
+# Delete a botched import on the GC_6_6 branch.  This clique is disconnected.
+<108593>,<108594>,<108595> delete
+
+# Massage comments into gittish form with separator lines where it can be
+# done automatically.
 gitify
 
 # Statistics on read and processing times
