@@ -500,7 +500,11 @@ root = Daniel Berlin <dberlin@dberlin.org>
 rsandifo = Richard Sandiford <rdsandiford@googlemail.com>
 rsavoye = Rob Savoye <rob@linaro.org>
 rschuster = Robert Schuster <robertschuster@fsfe.org>
-rth = Richard Henderson <rth@redhat.com>
+rth = Richard Henderson <rth@twiddle.net> America/Los_Angeles
++ Richard Henderson <rth@redhat.com> America/Los_Angeles
++ Richard Henderson <rth7680@tamu.edu> America/Los_Angeles
++ Richard Henderson <rth@cygnus.com> America/Los_Angeles
++ Richard Henderson <rth@gcc.gnu.org> America/Los_Angeles
 rts = Robert Suchanek <robert.suchanek@imgtec.com>
 rupp = Douglas Rupp <douglas.b.rupp@gmail.com>
 rus = Silvius Rus <rus@google.com>
@@ -510,15 +514,15 @@ sabre = Chris Lattner <sabre@nondot.org>
 sac = Steve Chamberlain <sac@transmeta.com>
 saliu = Sa Liu <saliu@de.ibm.com>
 sam = Samuel Tardieu <sam@rfc1149.net>
-sameerad = Sameera Deshpande <sameera.deshpande@arm.com>
+sameerad = Sameera Deshpande <sameera.deshpande@arm.com> Asia/Kolkata
 samuel = Alex Samuel <samuel@codesourcery.com>
 sandeep = Sandeep Soni <soni.sandeepb@gmail.com>
-sandra = Sandra Loosemore <sandra@codesourcery.com>
+sandra = Sandra Loosemore <sandra@codesourcery.com> America/New_York
 sayle = Roger Sayle <roger@eyesopen.com>
 schwab = Andreas Schwab <schwab@suse.de>
 scottb = Scott Bambrough <scottb@netwinder.org>
 scox = Stan Cox <scox@redhat.com>
-segher = Segher Boessenkool <segher@kernel.crashing.org>
+segher = Segher Boessenkool <segher@kernel.crashing.org> Europe/Amsterdam
 seurer = Bill Seurer <seurer@linux.vnet.ibm.com>
 sgilbertson = Scott Gilbertson <scottg@mantatest.com>
 sh = Sebastian Huber <sebastian.huber@embedded-brains.de>
