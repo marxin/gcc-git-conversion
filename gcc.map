@@ -50,7 +50,7 @@ bbooth = Brian Booth <bbooth@redhat.com>
 bd3 = Benoit Dupont de Dinechin <benoit.dupont-de-dinechin@st.com> Europe/Paris
 bdavis = Bud Davis <jmdavis@link.com>
 belagod = Tejas Belagod <tejas.belagod@arm.com> Europe/London
-bergner = Peter Bergner <bergner@vnet.ibm.com>
+bergner = Peter Bergner <bergner@vnet.ibm.com> America/Chicago
 bernds = Bernd Schmidt <bernds_cb1@t-online.de>
 bernie = Bernardo Innocenti <bernie@develer.com>
 bill = Bill Cox <bill@cygnus.com>
@@ -394,7 +394,7 @@ moshier = Stephen L Moshier <moshier@world.std.com>
 mpf = Matthew Fortune <matthew.fortune@imgtec.com>
 mpolacek = Marek Polacek <polacek@redhat.com>
 mrs = Mike Stump <mikestump@comcast.net>
-msebor = Martin Sebor <msebor@gcc.gnu.org>
+msebor = Martin Sebor <msebor@gcc.gnu.org> America/Denver
 mshawcroft = Marcus Shawcroft <marcus.shawcroft@arm.com>
 msokolov = Michael Sokolov <msokolov@ivan.Harhan.ORG>
 mueller = Dirk Mueller <dmueller@suse.de>
@@ -582,7 +582,10 @@ trifunovic = Konrad Trifunovic <konrad.trifunovic@inria.fr>
 trippels = Markus Trippelsdorf <markus@trippelsdorf.de>
 trix = Tom Rix <tcrix@bellsouth.net>
 tromey = Tom Tromey <tromey@redhat.com>
-tschwinge = Thomas Schwinge <thomas@schwinge.name>
+tschwinge = Thomas Schwinge <thomas@schwinge.name> Europe/Berlin
++ Thomas Schwinge <thomas@schwinge.name> Europe/Berlin
++ Thomas Schwinge <thomas@codesourcery.com> Europe/Berlin
++ Thomas Schwinge <tschwinge@gnu.org> Europe/Berlin
 tsmigiel = Trevor Smigiel <trevor_smigiel@playstation.sony.com>
 tudalova = Tatiana Udalova <t.udalova@samsung.com>
 turly = Turly O'Connor <turly@apple.com>
