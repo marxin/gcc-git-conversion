@@ -27,7 +27,7 @@ gcc.svn: gcc-mirror
 
 # Build a local mirror of the remote repository
 gcc-mirror:
-	rsync --archive --delete --compress rsync://gcc.gnu.org/gcc-svn gcc-mirror
+	rsync --archive --delete --compress --progress rsync://gcc.gnu.org/gcc-svn gcc-mirror
 
 #  Get a list of tags from the project mirror
 gcc-tags.txt: gcc-mirror
