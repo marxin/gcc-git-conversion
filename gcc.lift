@@ -19,8 +19,7 @@ EOF
 dje = David Edelsohn <dje.gcc@gmail.com> America/New_York
 EOF
 
-# Uncomment once we fix the bug in the changelogs code
-#changelogs --use-committer-date
+changelogs
 
 # Remove ancient CVS tags that confuse the git importer
 # (for example, refs/tags/ARM/hard_vfp_4_4_branch-root is illegal
