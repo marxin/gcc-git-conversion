@@ -445,7 +445,8 @@ pkoning = Paul Koning <ni1d@arrl.net> America/New_York
 + Paul Koning <paul_koning@dell.com> America/New_York
 + Paul Koning <paul.koning@dell.com> America/New_York
 pmarlier = Patrick Marlier <patrick.marlier@gmail.com>
-pmatos = Paulo Matos <paulo@matos-sorge.com>
+# FIXME: pmatos was in Europe/London uop to November 2015 
+pmatos = Paulo Matos <paulo@matos-sorge.com> Europe/Berlin
 pmderodat = Pierre-Marie de Rodat <derodat@adacore.com>
 pme = Phil Edwards <pme@gcc.gnu.org>
 pmj = Phillip Jordan <phillip.m.jordan@gmail.com>
