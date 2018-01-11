@@ -92,6 +92,7 @@ tag ibm/gcc-6-branch-root delete
 tag gcj/gcj-deletion-branch-root delete
 tag ibm/gcc-7-branch-root delete
 tag ARM/embedded-7-branch-root delete
+tag ARM/sve-branch-root delte
 
 # Deletion of other spurious commits
 
