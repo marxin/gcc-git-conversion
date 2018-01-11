@@ -94,6 +94,9 @@ tag ibm/gcc-7-branch-root delete
 tag ARM/embedded-7-branch-root delete
 tag ARM/sve-branch-root delete
 
+# Other junk tags to mark merges can be removed.
+tag /merge|before|after/ delete
+
 # Deletion of other spurious commits
 
 # Creation for a branch that never happened - got disconnected somehow
