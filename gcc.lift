@@ -24,10 +24,14 @@ changelogs
 # Remove ancient CVS tags that confuse the git importer
 # (for example, refs/tags/ARM/hard_vfp_4_4_branch-root is illegal
 # because refs/tags/ARM exists)
-tag /branch-root/ delete
+tag /branch-root|branchpoint/ delete
 
 # Other junk tags to mark merges can be removed.
 tag /merge|before|after/ delete
+
+# And various sporadic bad tags
+tag cp-parser-mege-14 delete
+tag Changelog delete
 
 # Deletion of other spurious commits
 
@@ -43,3 +47,19 @@ gitify
 
 # Statistics on read and processing times
 timing
+
+# To do:
+#
+# 1. There are multiple root commits:
+#
+# commit@:1371478=<234615>, commit@:538046=<113238>,
+# commit@:538468=<113337>, commit@:538607=<113371>,
+# commit@:542008=<113882>, commit@:544711=<114464>,
+# commit@:547982=<114830>, commit@:554157=<115929>,
+# commit@:697052=<136160.2>, commit@:721228=<140153>
+#
+# These are probably from operator errors and need to be reconnected
+#
+# 2. There are 409 mid-branch deletes.  Most of these were probably
+# cleanups for rebases, with a deleteall/copy sequence that needs
+# to be patched into merge.
