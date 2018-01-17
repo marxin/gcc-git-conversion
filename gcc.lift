@@ -152,6 +152,9 @@ tag tree-profiling-20041110 delete
 tag tree-profiling-20041111 delete
 tag tree-profiling-postcfginline-20041117 delete
 
+# Patch around a known bug in permissions propagation.
+=C setperm 100755 contrib/check_GNU_style_lib.py contrib/reghunt/date_based/reg_periodic contrib/reghunt/date_based/reg_search contrib/reghunt/date_based/reg_test_template gcc/config/powerpcspe/genopt.sh gcc/testsuite/ada/acats/run_acats.sh gcc/testsuite/go.test/test/errchk gcc/testsuite/go.test/test/run libgo/go/container/list/list.go libgo/go/container/list/list_test.go libgo/go/debug/dwarf/testdata/typedef.elf libgo/mksysinfo.sh libgo/testsuite/gotest
+
 # Delete a botched import on the GC_6_6 branch.  This clique is disconnected.
 <108593>,<108594>,<108595> delete
 
