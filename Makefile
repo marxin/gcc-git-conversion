@@ -22,12 +22,14 @@ gcc.fi: gcc.svn gcc.lift gcc.map $(EXTRAS)
 
 # Build the first-stage stream dump from the local mirror
 gcc.svn: gcc-mirror
-	repotool mirror gcc-mirror
 	(cd gcc-mirror/ >/dev/null; repotool export) >gcc.svn
 
 # Build a local mirror of the remote repository
+.PHONY: gcc-mirror
 gcc-mirror:
 	rsync --archive --delete --compress --progress rsync://gcc.gnu.org/gcc-svn gcc-mirror
+	echo "#!/bin/sh\nexit 0\n" >gcc-mirror/hooks/post-revprop-change
+	chmod a+x gcc-mirror/hooks/post-revprop-change
 
 #  Get a list of tags from the project mirror
 gcc-tags.txt: gcc-mirror
@@ -35,11 +37,11 @@ gcc-tags.txt: gcc-mirror
 
 # Make a local checkout of the source mirror for inspection
 gcc-checkout: gcc-mirror
-	cd gcc-mirror >/dev/null; repotool checkout ../gcc-checkout
+	cd gcc-mirror >/dev/null; repotool checkout $(PWD)/gcc-checkout
 
 # Make a local checkout of the source mirror for inspection at a specific tag
 gcc-%-checkout: gcc-mirror
-	cd gcc-mirror >/dev/null; repotool ../gcc-$*-checkout $*
+	cd gcc-mirror >/dev/null; repotool $(PWD)/gcc-$*-checkout $*
 
 # Force rebuild of first-stage stream from the local mirror on the next make
 local-clobber: clean
