@@ -271,7 +271,6 @@ jason = Jason Merrill <jason@redhat.com> America/New_York
 jasonwucj = Chung-Ju Wu <jasonwucj@gmail.com>
 jayants = Jayant Sonar <rsonar.jayant@gmail.com>
 jb = Janne Blomqvist <jb@gcc.gnu.org> Europe/Helsinki
-# Following two are Changelog only
 jblomqvi = Janne Blomqvist <jblomqvi@cc.hut.fi>  Europe/Helsinki
 + Janne Blomqvist <jblomqvi@vipunen.hut.fi>  Europe/Helsinki
 jbeniston = Jon Beniston <jon@beniston.com>
@@ -437,7 +436,6 @@ pbrook = Paul Brook <paul@nowt.org>
 pcg = Marc Lehmann <pcg@goof.com>
 phdm = Philippe De Muyter <phdm@macqel.be>
 phython = James A. Morrison <phython@gcc.gnu.org>
-# Andrew Pinksi was EST before 2006
 pinskia = Andrew Pinski <pinskia@gmail.com> America/Los_Angeles
 pkoning = Paul Koning <ni1d@arrl.net> America/New_York
 + Paul Koning <paulkoning@comcast.net> America/New_York
@@ -445,7 +443,6 @@ pkoning = Paul Koning <ni1d@arrl.net> America/New_York
 + Paul Koning <paul_koning@dell.com> America/New_York
 + Paul Koning <paul.koning@dell.com> America/New_York
 pmarlier = Patrick Marlier <patrick.marlier@gmail.com>
-# FIXME: pmatos was in Europe/London uop to November 2015 
 pmatos = Paulo Matos <paulo@matos-sorge.com> Europe/Berlin
 pmderodat = Pierre-Marie de Rodat <derodat@adacore.com>
 pme = Phil Edwards <pme@gcc.gnu.org>
@@ -478,7 +475,6 @@ rdapp = Robin Dapp <rdapp@linux.vnet.ibm.com>
 rearnsha = Richard Earnshaw <rearnsha@arm.com>
 redfire = Jeremie Salvucci <jeremie.salvucci@free.fr>
 redi = Jonathan Wakely <jwakely@redhat.com> Europe/London
-# Cited as auxiliary addresses
 redi2 = Jonathan Wakely <jwakely@gcc.gnu.org> Europe/London
 redi3 = Jonathan Wakely <jwakely.gcc@mail.com> Europe/London
 redi4 = Jonathan Wakely <cow@compsoc.man.ac.uk> Europe/London
@@ -617,7 +613,6 @@ wcohen = William Cohen <wcohen@redhat.com>
 wehle = John Wehle <john@feith.com>
 wilco = Wilco Dijkstra <wdijkstr@arm.com>
 willschm = Will Schmidt <will_schmidt@vnet.ibm.com>
-# wilson  was in Toronto April 2002 to April 2003.
 wilson = Jim Wilson <wilson@tuliptree.org> America/Los_Angeles
 wmi = Wei Mi <wmi@google.com>
 woepaul = Paul Woegerer <paul.woegerer@nsc.com>
